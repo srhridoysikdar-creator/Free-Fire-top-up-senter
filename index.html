@@ -1,50 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Fire Top-Up Center</title>
+    <title>বাঙালি ফ্রি ফায়ার টপ-আপ কেন্দ্র</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to the Free Fire Top-Up Center!</h1>
+        <h1>বাঙালি ফ্রি ফায়ার টপ-আপ কেন্দ্র</h1>
     </header>
-    <nav>
+
+    <section id="diamond-packages">
+        <h2>ডায়মন্ড প্যাকেজ</h2>
         <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li>100 ডায়মন্ড - ৳100</li>
+            <li>300 ডায়মন্ড - ৳300</li>
+            <li>500 ডায়মন্ড - ৳500</li>
+            <li>1000 ডায়মন্ড - ৳1000</li>
+            <li>2500 ডায়মন্ড - ৳2500</li>
         </ul>
-    </nav>
-    <main>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>We provide the best top-up services for Free Fire players. Fast and secure service with multiple payment options!</p>
-        </section>
-        <section id="services">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Instant top-ups</li>
-                <li>Various payment gateways</li>
-                <li>24/7 Customer support</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
+    </section>
+
+    <section id="player-input">
+        <h2>প্লেয়ার ইনপুট ফর্ম</h2>
+        <form id="topup-form">
+            <label for="player-id">প্লেয়ার আইডি:</label>
+            <input type="text" id="player-id" name="player-id" required>
+            <label for="package">প্যাকেজ নির্বাচন করুন:</label>
+            <select id="package" name="package">
+                <option value="100">100 ডায়মন্ড</option>
+                <option value="300">300 ডায়মন্ড</option>
+                <option value="500">500 ডায়মন্ড</option>
+                <option value="1000">1000 ডায়মন্ড</option>
+                <option value="2500">2500 ডায়মন্ড</option>
+            </select>
+            <input type="submit" value="টপ-আপ করুন">
+        </form>
+    </section>
+
+    <section id="payment-methods">
+        <h2>পেমেন্ট পদ্ধতি</h2>
+        <p>পেমেন্ট সম্পন্ন করতে আমাদের হোয়াটসঅ্যাপ নম্বরে <strong>8801650142607</strong> এ যোগাযোগ করুন।</p>
+    </section>
+
     <footer>
-        <p>&copy; 2026 Free Fire Top-Up Center. All rights reserved.</p>
+        <p>© 2026 বাঙালি ফ্রি ফায়ার টপ-আপ কেন্দ্র</p>
     </footer>
 </body>
 </html>
