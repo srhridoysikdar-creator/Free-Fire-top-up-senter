@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Fire Top-Up | Fast Delivery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <div class="banner">
+        <h1>Free Fire Top-Up (Fast Delivery)</h1>
+        <p class="muted">Instant UID top-up • 100% safe • Quick delivery</p>
+        <div class="linkbar">
+          <a href="#topup" class="btn">Top-Up Now</a>
+          <a href="#payment" class="btn secondary">Payment Methods</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Why Choose Us?</h3>
+        <ul class="muted">
+          <li>⚡ Fast delivery</li>
+          <li>🔒 Secure UID top-up</li>
+          <li>💬 24/7 support (WhatsApp)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="topup" class="grid section">
+      <div class="card">
+        <h3>Enter Your UID</h3>
+        <p class="muted">UID & Server দিন, তারপর প্যাকেজ সিলেক্ট করুন।</p>
+        <div class="stack">
+          <input placeholder="Player UID">
+          <input placeholder="Server (e.g. BD)">
+          <a class="btn" href="#payment">Proceed to Payment</a>
+        </div>
+      </div>
+      <div class="packages">
+        <div class="card"><h4>100 Diamonds</h4><p class="price">৳120</p><a class="btn secondary" href="#payment">Select</a></div>
+        <div class="card"><h4>210 Diamonds</h4><p class="price">৳240</p><a class="btn secondary" href="#payment">Select</a></div>
+        <div class="card"><h4>530 Diamonds</h4><p class="price">৳580</p><a class="btn secondary" href="#payment">Select</a></div>
+        <div class="card"><h4>1080 Diamonds</h4><p class="price">৳1150</p><a class="btn secondary" href="#payment">Select</a></div>
+      </div>
+    </section>
+
+    <section id="payment" class="section">
+      <h3>Payment Methods</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>bKash</h4>
+          <p class="muted">Send Money (Personal)</p>
+          <a class="btn secondary" href="https://wa.me/8801XXXXXXXXX" target="_blank">Pay with bKash</a>
+        </div>
+    <div class="card">
+          <h4>Rocket</h4>
+          <p class="muted">
