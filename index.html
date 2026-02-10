@@ -1,51 +1,56 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>বাঙালি ফ্রি ফায়ার টপ-আপ কেন্দ্র</title>
+    <title>Free Fire Top-Up Center</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>বাঙালি ফ্রি ফায়ার টপ-আপ কেন্দ্র</h1>
+        <h1>Welcome to Free Fire Top-Up Center</h1>
+        <div class="hero">
+            <h2>Top Up Your Free Fire Account Instantly</h2>
+            <button onclick="scrollToPackages()">Choose Your Package</button>
+        </div>
     </header>
-
-    <section id="diamond-packages">
-        <h2>ডায়মন্ড প্যাকেজ</h2>
-        <ul>
-            <li>100 ডায়মন্ড - ৳100</li>
-            <li>300 ডায়মন্ড - ৳300</li>
-            <li>500 ডায়মন্ড - ৳500</li>
-            <li>1000 ডায়মন্ড - ৳1000</li>
-            <li>2500 ডায়মন্ড - ৳2500</li>
-        </ul>
+    <section class="packages">
+        <h2>Available Packages</h2>
+        <div class="package-selection">
+            <div class="package">
+                <h3>Package 1</h3>
+                <p>500 Diamonds</p>
+                <p>Price: $5</p>
+            </div>
+            <div class="package">
+                <h3>Package 2</h3>
+                <p>1000 Diamonds</p>
+                <p>Price: $10</p>
+            </div>
+            <div class="package">
+                <h3>Package 3</h3>
+                <p>2000 Diamonds</p>
+                <p>Price: $20</p>
+            </div>
+        </div>
     </section>
-
-    <section id="player-input">
-        <h2>প্লেয়ার ইনপুট ফর্ম</h2>
-        <form id="topup-form">
-            <label for="player-id">প্লেয়ার আইডি:</label>
-            <input type="text" id="player-id" name="player-id" required>
-            <label for="package">প্যাকেজ নির্বাচন করুন:</label>
-            <select id="package" name="package">
-                <option value="100">100 ডায়মন্ড</option>
-                <option value="300">300 ডায়মন্ড</option>
-                <option value="500">500 ডায়মন্ড</option>
-                <option value="1000">1000 ডায়মন্ড</option>
-                <option value="2500">2500 ডায়মন্ড</option>
-            </select>
-            <input type="submit" value="টপ-আপ করুন">
+    <section class="order-form">
+        <h2>Order Your Diamonds</h2>
+        <form>
+            <label for="uid">Free Fire UID:</label>
+            <input type="text" id="uid" name="uid" required>
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile" required>
+            <button type="submit">Submit</button>
         </form>
+        <p>For assistance, contact us on WhatsApp:</p>
+        <a href="https://wa.me/yourwhatsapplink" target="_blank">Chat on WhatsApp</a>
     </section>
-
-    <section id="payment-methods">
-        <h2>পেমেন্ট পদ্ধতি</h2>
-        <p>পেমেন্ট সম্পন্ন করতে আমাদের হোয়াটসঅ্যাপ নম্বরে <strong>8801650142607</strong> এ যোগাযোগ করুন।</p>
-    </section>
-
-    <footer>
-        <p>© 2026 বাঙালি ফ্রি ফায়ার টপ-আপ কেন্দ্র</p>
-    </footer>
+    <script>
+        function scrollToPackages() {
+            document.querySelector('.packages').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
 </body>
 </html>
